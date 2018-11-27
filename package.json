@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "actions-on-google": "^2.5.0",
+    "body-parser": "^1.18.3",
+    "dialogflow-fulfillment": "^0.6.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SPDevz/chatbot.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SPDevz/chatbot/issues"
-  },
-  "homepage": "https://github.com/SPDevz/chatbot#readme"
+  "license": "ISC"
 }
